@@ -315,6 +315,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 540774949}
+  - component: {fileID: 540774950}
   m_Layer: 0
   m_Name: LaunchPoint
   m_TagString: Untagged
@@ -336,6 +337,18 @@ Transform:
   m_Father: {fileID: 1465084801}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!122 &540774950
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540774948}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4285419002
+  m_Size: 3
 --- !u!1 &970524478
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,6 +534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1465084801}
   - component: {fileID: 1465084802}
+  - component: {fileID: 1465084803}
   m_Layer: 0
   m_Name: Slingshot
   m_TagString: Untagged
@@ -559,6 +573,23 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 3
   m_Center: {x: 0, y: 4, z: 0}
+--- !u!114 &1465084803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465084800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd44679f1e5415148a2482fa8675b3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabProjectile: {fileID: 0}
+  launchPoint: {fileID: 0}
+  launchPos: {x: 0, y: 0, z: 0}
+  projectile: {fileID: 0}
+  aimingMood: 0
 --- !u!1 &1957158159
 GameObject:
   m_ObjectHideFlags: 0
